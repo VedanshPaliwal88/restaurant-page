@@ -5,21 +5,21 @@ export default function generateMenu() {
     content.innerHTML = '';
 
     let itemNames =[
-        'Appetizer', 'Ghostly Garlic Bread', 'Phantom Fries',
-        'Main Course', 'Haunted Hamburger', 'Spectral Spaghetti',
-        'Desserts', 'Lost Lava Cake', 'Forgotten Cheesecake',
+        'Appetizer', 'Moldy Mozzarella Sticks', 'Rusty Ranch Dip',
+        'Main Course', 'Soggy Spaghetti', 'Battered Burger',
+        'Desserts', 'Spoiled Sundae', 'Crumbling Cheesecake',
     ]
 
     let itemDescs = [
-        'Once beloved starters that set the stage for a great meal.',
-        'Remnants of what used to be a customer favorite, now just a memory.',
-        'Crispy fries that vanished with time.',
-        'Mains that once graced our tables, now just a whisper in the wind.',
-        `A juicy burger that people still talk about, though it's long gone.`,
-        'Pasta that used to be the star of the menu, now a distant memory.',
-        'Sweet endings that linger in the minds of those who dined here.',
-        'Once oozing with flavor, now just a shadow.',
-        'A creamy delight that faded away.'
+        'Starters that have long since been forgotten.',
+        'Once crispy, now just a distant memory.',
+        'A dip that no one should dare to try.',
+        'Mains that have seen better days.',
+        `Pasta that’s past its prime.`,
+        'Once a favorite, now left to rot.',
+        'Sweets that are anything but sweet now.',
+        'Ice cream that’s seen better days.',
+        'A dessert that’s falling apart.'
     ]
 
     let itemPrices = [
