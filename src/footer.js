@@ -5,7 +5,7 @@ export default function generateFooter() {
 
     let left = document.createElement('div');
     left.classList.add('left');
-    left.textContent = "Have any questions or want to make a reservation? Reach out to us!";
+    left.textContent = "Curious about our downfall? Get in touch – though we can’t guarantee a response from the beyond.";
 
     let addressBox = document.createElement('div');
     let addressText = document.createElement('div');
