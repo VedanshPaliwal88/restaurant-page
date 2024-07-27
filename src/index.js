@@ -2,6 +2,8 @@ import ('./css/style.css');
 import generateHome from './home.js';
 import generateMenu from './menu.js';
 
+generateHome();
+
 let homeBtn = document.querySelector("#home")
 homeBtn.addEventListener('click', () => generateHome());
 
