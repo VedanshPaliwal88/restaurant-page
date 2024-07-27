@@ -17,7 +17,7 @@ export default function generateHome() {
     head1.classList.add('heading');
 
     restaurantName.textContent = "the Broken Bistro";
-    restaurantName.classList.add('name');
+    restaurantName.classList.add('restaurantName');
 
     head1.appendChild(restaurantName);
     

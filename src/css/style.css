@@ -25,9 +25,11 @@ nav {
 #content {
     background: linear-gradient(darkslategray, darkgray);
     display: flex;
+    align-items: center;
     flex-direction: column;
+    padding-top: 16px;
 }
-
+/* Home css */
 .heading, .subheading {
     font-size: 1.5em;
     color: rgb(99, 112, 125);
@@ -46,7 +48,7 @@ nav {
     color: rgb(26, 48, 48);
 }
 
-.name {
+.restaurantName {
     font-family: underdog;
     color: rgb(15, 25, 25);
     font-size: 2em;
@@ -58,6 +60,7 @@ nav {
     align-self: center;
 }
 
+/* footer css */
 .footer {
     display: grid;
     grid-template-columns: 7fr 2fr 1fr 1fr;
@@ -80,4 +83,37 @@ nav {
 
 .text {
     font-size: 1.25em;
+}
+
+/* Menu css */
+.cuisine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.cuisineName {
+    font-size: 1.75em;
+    text-decoration: underline;
+}
+
+.menuItem {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 16px 0;
+}
+
+.dishName {
+    font-size: 1.25em;
+}
+
+.dishDescription {
+    font-size: 0.75em;
+}
+
+.dishPrice {
+    width: 65px;
+    justify-self: flex-end;
 }
