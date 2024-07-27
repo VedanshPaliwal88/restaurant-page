@@ -118,3 +118,28 @@ nav {
     display: flex;
     justify-content: flex-end;
 }
+
+/* About us css */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 32px;
+}
+
+.aboutTitle {
+    font-size: 3em;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.aboutHeading {
+    margin-top: 16px;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.aboutText {
+    font-size: 1.25em;
+}
