@@ -1,4 +1,6 @@
 import interiorImg from './images/interior.jpg'   
+import generateFooter from './footer';
+
 export default function generateHome() {
     
     let content = document.querySelector('#content');
@@ -20,7 +22,7 @@ export default function generateHome() {
     head1.appendChild(restaurantName);
     
     head2.textContent = "-Where the time stays still";
-    head2.classList.add('heading');
+    head2.classList.add('subheading');
     
     
     head3.textContent = "Experience the remnants of what was once a restaurant.";
@@ -34,4 +36,5 @@ export default function generateHome() {
     content.appendChild(head2);
     content.appendChild(head3);
     content.appendChild(interior);
+    generateFooter();
 }

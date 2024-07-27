@@ -28,7 +28,7 @@ nav {
     flex-direction: column;
 }
 
-.heading {
+.heading, .subheading {
     font-size: 1.5em;
     color: rgb(99, 112, 125);
     display: flex;
@@ -36,8 +36,8 @@ nav {
     justify-content: center;
 }
 
-#content :nth-child(2) {
-    padding-left: 15em;
+.subheading {
+    margin-left: 5em;
 }
 
 .catchphrase {
@@ -56,4 +56,28 @@ nav {
     margin: 4em 0;
     width: 80%;
     align-self: center;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 7fr 2fr 1fr 1fr;
+    align-items: baseline;
+
+    background-color: blanchedalmond;
+    padding: 16px 16px 16px 16px;
+}
+
+.left {
+    align-self: center;
+    font-size: 1.5em;
+}
+
+.phone, .email, .address {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 1.25em;
 }
