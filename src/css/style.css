@@ -1,0 +1,59 @@
+@font-face {
+    font-family: underdog;
+    src: url(./fonts/underdog-regular-webfont.woff) format('woff'),
+    url(./fonts/underdog-regular-webfont.woff2) format('woff2');
+}
+
+body {
+    background: linear-gradient(black, white, black);
+
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding: 2em 0;
+}
+
+.nav-button {
+    font-size: 2em;
+    padding: 0.5em 1em;
+    color: darkslategrey;
+    background-color: grey;
+}
+
+#content {
+    background: linear-gradient(darkslategray, darkgray);
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 1.5em;
+    color: rgb(99, 112, 125);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content :nth-child(2) {
+    padding-left: 15em;
+}
+
+.catchphrase {
+    padding-top: 1.5em;
+    font-size: 2em;
+    color: rgb(26, 48, 48);
+}
+
+.name {
+    font-family: underdog;
+    color: rgb(15, 25, 25);
+    font-size: 2em;
+}
+
+.interior {
+    margin: 4em 0;
+    width: 80%;
+    align-self: center;
+}
